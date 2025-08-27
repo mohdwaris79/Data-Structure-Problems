@@ -4,7 +4,7 @@ public class LongestIncreasingSubsequence {
     public static int LongestIncreasingSubsequence(int[] arr) {
         int n = arr.length;
         int[] dp = new int[n];      //first created a dp array
-        Arrays.fill(dp, 1);
+        Arrays.fill(dp, 0);
 
         int maxLen = 1;
         for (int i = 1; i < n; i++) {
