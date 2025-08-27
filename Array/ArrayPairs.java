@@ -5,7 +5,7 @@ public class ArrayPairs {
             for (int j = i + 1; j < num.length; j++) {
                 System.out.println("(" + curr + "," + num[j] + ")");
             }
-            System.out.println();
+            System.out.println("");
         }
     }
 
