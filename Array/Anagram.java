@@ -21,7 +21,7 @@ public class Anagram{
     {
         String str1="hello";
         String str2="oellh";
-        System.out.println(anagram(str1,str2)?"Anagram":"Not Anagram");
+        System.out.println(anagram(str1,str2)?"String is Anagram":" String is Not Anagram");
 
 
     }

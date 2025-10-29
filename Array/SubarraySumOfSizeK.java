@@ -13,6 +13,8 @@ public class SubarraySumOfSizeK {
         {
             currSum+=arr[i]-arr[i-k];
             maxSum=Math.max(maxSum,currSum);
+        
+
         }
 
         return maxSum;
