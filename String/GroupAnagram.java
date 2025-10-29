@@ -18,7 +18,7 @@ public class GroupAnagram {
         return new ArrayList<>(map.values());
     }
 
-    // Main method
+    
     public static void main(String[] args) {
         String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
 
