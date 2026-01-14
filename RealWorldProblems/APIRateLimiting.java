@@ -33,10 +33,10 @@ public class APIRateLimiting {
             }
         }
 
-        return breachStart;
+        return breachStart;                           // Return Earliest Second when system gone breach
     }
 
-    // MAIN FUNCTION
+    
     public static void main(String[] args) {
 
         int[] requests = {3, 5, 2, 6, 7, 1, 1};
