@@ -1,6 +1,6 @@
 public abstract class PaymentGatewayRetryFailure {
     
-
+// Sliding Window + Prefix Sum
 
     public static int permanentBlock(int[] failures, int W, int L) {
 
