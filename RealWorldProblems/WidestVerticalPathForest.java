@@ -1,6 +1,8 @@
 public class WidestVerticalPathForest {
     
+       // Removing Sorting and applying pigeon hole principal for reducing time complexity from O(nlogn) to O(N).
 
+       
     public static int forest(int[] X, int[] Y) {
         int n = X.length;           // we will focus on x because we want find max distance x between tree
         if (n < 2) return 0;        // trap case
